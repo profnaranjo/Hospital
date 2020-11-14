@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{534461c3-3118-457e-8340-c1178ae1ee32}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>app.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="app.js" />
+    <Content Include="github_readme_photos\add_new_patient.jpg" />
+    <Content Include="github_readme_photos\backend.jpg" />
+    <Content Include="github_readme_photos\dasboard_2.jpg" />
+    <Content Include="github_readme_photos\dashboard.jpg" />
+    <Content Include="github_readme_photos\database.jpg" />
+    <Content Include="github_readme_photos\database_design.jpg" />
+    <Content Include="github_readme_photos\frontend.jpg" />
+    <Content Include="github_readme_photos\main_picture.jpg" />
+    <Content Include="github_readme_photos\patient_page.jpg" />
+    <Content Include="github_readme_photos\system_settings.jpg" />
+    <Content Include="public\favicon.ico" />
+    <Content Include="routes\app.js" />
+    <Content Include="routes\diseases.js" />
+    <Content Include="routes\login.js" />
+    <Content Include="routes\patients.js" />
+    <Content Include="routes\rooms.js" />
+    <Content Include="routes\settings.js" />
+    <Content Include="routes\users.js" />
+    <Content Include="public\css\bootstrap-social.css" />
+    <Content Include="public\css\bootstrap-theme.min.css" />
+    <Content Include="public\css\bootstrap.css" />
+    <Content Include="public\css\bootstrap.min.css" />
+    <Content Include="public\css\dataTables.bootstrap.min.css" />
+    <Content Include="public\css\font-awesome.min.css" />
+    <Content Include="public\css\jquery.dataTables.min.css" />
+    <Content Include="public\css\metisMenu.min.css" />
+    <Content Include="public\css\morris.css" />
+    <Content Include="public\css\patientView.css" />
+    <Content Include="public\css\startmin.css" />
+    <Content Include="public\css\style.css" />
+    <Content Include="public\css\stylelogin.css" />
+    <Content Include="public\css\timeline.css" />
+    <Content Include="public\fonts\fontawesome-webfont.svg" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\images\nhs.png" />
+    <Content Include="public\js\bootstrap.js" />
+    <Content Include="public\js\bootstrap.min.js" />
+    <Content Include="public\js\dashboard.js" />
+    <Content Include="public\js\dataTables.bootstrap.min.js" />
+    <Content Include="public\js\flot-data.js" />
+    <Content Include="public\js\jquery-1.12.4.js" />
+    <Content Include="public\js\jquery.dataTables.min.js" />
+    <Content Include="public\js\jquery.min.js" />
+    <Content Include="public\js\metisMenu.min.js" />
+    <Content Include="public\js\morris-data.js" />
+    <Content Include="public\js\morris.min.js" />
+    <Content Include="public\js\patientView.js" />
+    <Content Include="public\js\raphael.min.js" />
+    <Content Include="public\js\startmin.js" />
+    <Content Include="public\scripts\addpatient.js" />
+    <Content Include="public\scripts\dashboard.js" />
+    <Content Include="public\scripts\patientPage.js" />
+    <Content Include="public\scripts\systemSettings.js" />
+    <Content Include="public\js\flot\excanvas.min.js" />
+    <Content Include="public\js\flot\jquery.colorhelpers.js" />
+    <Content Include="public\js\flot\jquery.flot.canvas.js" />
+    <Content Include="public\js\flot\jquery.flot.categories.js" />
+    <Content Include="public\js\flot\jquery.flot.crosshair.js" />
+    <Content Include="public\js\flot\jquery.flot.errorbars.js" />
+    <Content Include="public\js\flot\jquery.flot.fillbetween.js" />
+    <Content Include="public\js\flot\jquery.flot.image.js" />
+    <Content Include="public\js\flot\jquery.flot.js" />
+    <Content Include="public\js\flot\jquery.flot.navigate.js" />
+    <Content Include="public\js\flot\jquery.flot.pie.js" />
+    <Content Include="public\js\flot\jquery.flot.resize.js" />
+    <Content Include="public\js\flot\jquery.flot.selection.js" />
+    <Content Include="public\js\flot\jquery.flot.stack.js" />
+    <Content Include="public\js\flot\jquery.flot.symbol.js" />
+    <Content Include="public\js\flot\jquery.flot.threshold.js" />
+    <Content Include="public\js\flot\jquery.flot.time.js" />
+    <Content Include="public\js\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="server\db\mongoose.js" />
+    <Content Include="server\models\diseases.js" />
+    <Content Include="server\models\patient.js" />
+    <Content Include="server\models\rooms.js" />
+    <Content Include="server\models\user.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="github_readme_photos" />
+    <Folder Include="Hospital" />
+    <Folder Include="public" />
+    <Folder Include="public\css" />
+    <Folder Include="public\fonts" />
+    <Folder Include="public\images" />
+    <Folder Include="public\js" />
+    <Folder Include="public\js\flot" />
+    <Folder Include="public\scripts" />
+    <Folder Include="routes" />
+    <Folder Include="server" />
+    <Folder Include="server\db" />
+    <Folder Include="server\models" />
+    <Folder Include="views" />
+    <Folder Include="views\layouts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

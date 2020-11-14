@@ -1,0 +1,2 @@
+C:\Users\eddie\Desktop\node_apps\hospital_web\obj\Debug\Hospital.njsproj.CoreCompileInputs.cache
+C:\Users\eddie\Desktop\node_apps\hospital_web\bin\Microsoft.NodejsTools.WebRole.dll
